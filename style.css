@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+	background-color: grey;
+	font-family: 'Roboto', sans-serif;
+}
+
+.description{
+	height: 25px;
+	overflow: hidden;
+	transition: height .3s ease-in .3s;
+}
+
+.description:hover{
+	height: 80px;
+}
+
+
+.etiquetas{
+	padding: 10px;
+}
+
+
+.navbar-brand{
+	font-size: 20px;
+}
+
+
+@media all and (max-width: 769px){
+
+.etiquetas{
+	padding: 20px;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+}
+
+
+
+
